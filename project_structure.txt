@@ -1,0 +1,22 @@
+ReconTool/
+│
+├── modules/
+│   ├── active/
+│   │   ├── banner_grab.py
+│   │   ├── port_scan.py
+│   │   └── tech_detect.py
+│   │
+│   └── passive/
+│       ├── dns_enum.py
+│       ├── subdomain_enum.py
+│       └── whois_lookup.py
+│
+├── reports/
+│   └── report.txt
+│
+├── logger.py
+├── main.py
+├── requirements.txt
+├── dockerfile
+├── README.md
+└── .gitignore
