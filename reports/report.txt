@@ -1,0 +1,58 @@
+Recon Report for certifiedhacker.com
+----------------------------------------
+
+[WHOIS Lookup]
+{
+  "domain_name": "CERTIFIEDHACKER.COM",
+  "registrar": "Network Solutions, LLC",
+  "registrar_url": "http://networksolutions.com",
+  "reseller": null,
+  "whois_server": "whois.networksolutions.com",
+  "referral_url": null,
+  "updated_date": [
+    "2025-05-30 07:12:33",
+    "2025-05-30 07:12:43"
+  ],
+  "creation_date": "2002-07-30 00:32:00",
+  "expiration_date": "2026-07-30 00:32:00",
+  "name_servers": [
+    "NS1.BLUEHOST.COM",
+    "NS2.BLUEHOST.COM"
+  ],
+  "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+  "emails": [
+    "domain.operations@web.com",
+    "kq9t994x73e@networksolutionsprivateregistration.com"
+  ],
+  "dnssec": "unsigned",
+  "name": "PERFECT PRIVACY, LLC",
+  "org": null,
+  "address": "5335 Gate Parkway care of Network Solutions PO Box 459",
+  "city": "Jacksonville",
+  "state": "FL",
+  "registrant_postal_code": "32256",
+  "country": "US"
+}
+
+[DNS Enumeration]
+{'A': ['162.241.216.11'], 'MX': ['0 mail.certifiedhacker.com.'], 'TXT': ['"v=spf1 a mx ptr include:bluehost.com ?all"'], 'NS': ['ns1.bluehost.com.', 'ns2.bluehost.com.']}
+
+[Subdomain Enumeration]
+Subdomain Error: HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=10)
+
+[Port Scan]
+Open Ports: [21, 22, 80, 443]
+
+[Banner Grabbing]
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 18 Jul 2025 18:52:49 GMT
+Server: Apache
+Location: https://certifiedhacker.com/
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+[Technology Detection]
+[1m[34mhttp://certifiedhacker.com[0m [301 Moved Permanently] [1mApache[0m, [1mCountry[0m[[0m[22mUNITED STATES[0m][[1m[31mUS[0m], [1mHTTPServer[0m[[1m[36mApache[0m], [1mIP[0m[[0m[22m162.241.216.11[0m], [1mRedirectLocation[0m[[0m[22mhttps://certifiedhacker.com/[0m], [1mTitle[0m[[1m[33m301 Moved Permanently[0m]
+[1m[34mhttps://certifiedhacker.com/[0m [200 OK] [1mCountry[0m[[0m[22mUNITED STATES[0m][[1m[31mUS[0m], [1mHTTPServer[0m[[1m[36mnginx/1.25.5[0m], [1mIP[0m[[0m[22m162.241.216.11[0m], [1mJQuery[0m[[1m[32m1.4[0m], [1mMeta-Author[0m[[0m[22mParallelus[0m], [1mPasswordField[0m[[0m[22mRevealPassword[0m], [1mScript[0m[[0m[22mtext/javascript[0m], [1mTitle[0m[[1m[33mCertfied Hacker[0m], [1mUncommonHeaders[0m[[0m[22mhost-header,x-server-cache,x-proxy-cache[0m], [1mnginx[0m[[1m[32m1.25.5[0m]
+
